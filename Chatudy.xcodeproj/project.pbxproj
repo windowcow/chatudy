@@ -11,6 +11,17 @@
 		3D0FFC0429D81D6700ED499D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC0329D81D6700ED499D /* ContentView.swift */; };
 		3D0FFC0629D81D6800ED499D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0FFC0529D81D6800ED499D /* Assets.xcassets */; };
 		3D0FFC0929D81D6800ED499D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0FFC0829D81D6800ED499D /* Preview Assets.xcassets */; };
+		3D0FFC1D29D8380600ED499D /* ChatTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC1929D8380500ED499D /* ChatTabView.swift */; };
+		3D0FFC1E29D8380600ED499D /* ReviecedMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC1B29D8380600ED499D /* ReviecedMessageView.swift */; };
+		3D0FFC1F29D8380600ED499D /* SentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC1C29D8380600ED499D /* SentMessageView.swift */; };
+		3D0FFC2029D8380600ED499D /* QAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC1829D8380500ED499D /* QAView.swift */; };
+		3D0FFC2529D8381000ED499D /* ReviewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC2429D8381000ED499D /* ReviewTabView.swift */; };
+		3D0FFC2729D8381400ED499D /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC2629D8381400ED499D /* SettingsTabView.swift */; };
+		3D0FFC2929D8381700ED499D /* StatisticsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC2829D8381700ED499D /* StatisticsTabView.swift */; };
+		3D0FFC2B29D8382A00ED499D /* OpenAiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC2A29D8382A00ED499D /* OpenAiModel.swift */; };
+		3D0FFC2E29D8386C00ED499D /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D0FFC2D29D8386C00ED499D /* OpenAISwift */; };
+		3D0FFC3429D8394C00ED499D /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC3329D8394C00ED499D /* CustomTabView.swift */; };
+		3D0FFC3829D83ADE00ED499D /* ConversationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC3729D83ADE00ED499D /* ConversationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,16 @@
 		3D0FFC0329D81D6700ED499D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D0FFC0529D81D6800ED499D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D0FFC0829D81D6800ED499D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D0FFC1829D8380500ED499D /* QAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAView.swift; sourceTree = "<group>"; };
+		3D0FFC1929D8380500ED499D /* ChatTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTabView.swift; sourceTree = "<group>"; };
+		3D0FFC1B29D8380600ED499D /* ReviecedMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviecedMessageView.swift; sourceTree = "<group>"; };
+		3D0FFC1C29D8380600ED499D /* SentMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentMessageView.swift; sourceTree = "<group>"; };
+		3D0FFC2429D8381000ED499D /* ReviewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTabView.swift; sourceTree = "<group>"; };
+		3D0FFC2629D8381400ED499D /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
+		3D0FFC2829D8381700ED499D /* StatisticsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsTabView.swift; sourceTree = "<group>"; };
+		3D0FFC2A29D8382A00ED499D /* OpenAiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAiModel.swift; sourceTree = "<group>"; };
+		3D0FFC3329D8394C00ED499D /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		3D0FFC3729D83ADE00ED499D /* ConversationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0FFC2E29D8386C00ED499D /* OpenAISwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +73,14 @@
 		3D0FFC0029D81D6700ED499D /* Chatudy */ = {
 			isa = PBXGroup;
 			children = (
+				3D0FFC3629D8396600ED499D /* TabView */,
 				3D0FFC0129D81D6700ED499D /* ChatudyApp.swift */,
 				3D0FFC0329D81D6700ED499D /* ContentView.swift */,
+				3D0FFC1B29D8380600ED499D /* ReviecedMessageView.swift */,
+				3D0FFC1829D8380500ED499D /* QAView.swift */,
+				3D0FFC1C29D8380600ED499D /* SentMessageView.swift */,
+				3D0FFC2A29D8382A00ED499D /* OpenAiModel.swift */,
+				3D0FFC3729D83ADE00ED499D /* ConversationModel.swift */,
 				3D0FFC0529D81D6800ED499D /* Assets.xcassets */,
 				3D0FFC0729D81D6800ED499D /* Preview Content */,
 			);
@@ -65,6 +93,58 @@
 				3D0FFC0829D81D6800ED499D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D0FFC2F29D838D000ED499D /* ReviewTab */ = {
+			isa = PBXGroup;
+			children = (
+				3D0FFC2429D8381000ED499D /* ReviewTabView.swift */,
+			);
+			path = ReviewTab;
+			sourceTree = "<group>";
+		};
+		3D0FFC3029D838E700ED499D /* SettingsTab */ = {
+			isa = PBXGroup;
+			children = (
+				3D0FFC2629D8381400ED499D /* SettingsTabView.swift */,
+			);
+			path = SettingsTab;
+			sourceTree = "<group>";
+		};
+		3D0FFC3129D838EE00ED499D /* StatisticsTab */ = {
+			isa = PBXGroup;
+			children = (
+				3D0FFC2829D8381700ED499D /* StatisticsTabView.swift */,
+			);
+			path = StatisticsTab;
+			sourceTree = "<group>";
+		};
+		3D0FFC3229D8390300ED499D /* ChatTab */ = {
+			isa = PBXGroup;
+			children = (
+				3D0FFC1929D8380500ED499D /* ChatTabView.swift */,
+			);
+			path = ChatTab;
+			sourceTree = "<group>";
+		};
+		3D0FFC3529D8395800ED499D /* CustomTab */ = {
+			isa = PBXGroup;
+			children = (
+				3D0FFC3329D8394C00ED499D /* CustomTabView.swift */,
+			);
+			path = CustomTab;
+			sourceTree = "<group>";
+		};
+		3D0FFC3629D8396600ED499D /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				3D0FFC3529D8395800ED499D /* CustomTab */,
+				3D0FFC3229D8390300ED499D /* ChatTab */,
+				3D0FFC2F29D838D000ED499D /* ReviewTab */,
+				3D0FFC3029D838E700ED499D /* SettingsTab */,
+				3D0FFC3129D838EE00ED499D /* StatisticsTab */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +163,9 @@
 			dependencies = (
 			);
 			name = Chatudy;
+			packageProductDependencies = (
+				3D0FFC2D29D8386C00ED499D /* OpenAISwift */,
+			);
 			productName = Chatudy;
 			productReference = 3D0FFBFE29D81D6700ED499D /* Chatudy.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +194,9 @@
 				Base,
 			);
 			mainGroup = 3D0FFBF529D81D6700ED499D;
+			packageReferences = (
+				3D0FFC2C29D8386C00ED499D /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
 			productRefGroup = 3D0FFBFF29D81D6700ED499D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0FFC2529D8381000ED499D /* ReviewTabView.swift in Sources */,
+				3D0FFC2029D8380600ED499D /* QAView.swift in Sources */,
+				3D0FFC1F29D8380600ED499D /* SentMessageView.swift in Sources */,
+				3D0FFC3429D8394C00ED499D /* CustomTabView.swift in Sources */,
 				3D0FFC0429D81D6700ED499D /* ContentView.swift in Sources */,
+				3D0FFC2729D8381400ED499D /* SettingsTabView.swift in Sources */,
+				3D0FFC1E29D8380600ED499D /* ReviecedMessageView.swift in Sources */,
+				3D0FFC1D29D8380600ED499D /* ChatTabView.swift in Sources */,
 				3D0FFC0229D81D6700ED499D /* ChatudyApp.swift in Sources */,
+				3D0FFC2B29D8382A00ED499D /* OpenAiModel.swift in Sources */,
+				3D0FFC3829D83ADE00ED499D /* ConversationModel.swift in Sources */,
+				3D0FFC2929D8381700ED499D /* StatisticsTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +435,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D0FFC2C29D8386C00ED499D /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D0FFC2D29D8386C00ED499D /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D0FFC2C29D8386C00ED499D /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D0FFBF629D81D6700ED499D /* Project object */;
 }
