@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0AA9EA2A04ABAA00F4A863 /* PdfModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0AA9E92A04ABAA00F4A863 /* PdfModel.swift */; };
+		3D0AA9EC2A05249500F4A863 /* PDFDocument+QuizExtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0AA9EB2A05249500F4A863 /* PDFDocument+QuizExtraction.swift */; };
+		3D0AA9EE2A05268B00F4A863 /* ExtractedBlankQuizReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0AA9ED2A05268B00F4A863 /* ExtractedBlankQuizReviewView.swift */; };
 		3D0FFC0229D81D6700ED499D /* ChatudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC0129D81D6700ED499D /* ChatudyApp.swift */; };
 		3D0FFC0429D81D6700ED499D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC0329D81D6700ED499D /* ContentView.swift */; };
 		3D0FFC0629D81D6800ED499D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0FFC0529D81D6800ED499D /* Assets.xcassets */; };
@@ -15,16 +18,20 @@
 		3D0FFC1E29D8380600ED499D /* ReviecedMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC1B29D8380600ED499D /* ReviecedMessageView.swift */; };
 		3D0FFC1F29D8380600ED499D /* SentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC1C29D8380600ED499D /* SentMessageView.swift */; };
 		3D0FFC2029D8380600ED499D /* QAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC1829D8380500ED499D /* QAView.swift */; };
-		3D0FFC2529D8381000ED499D /* ReviewTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC2429D8381000ED499D /* ReviewTabView.swift */; };
+		3D0FFC2529D8381000ED499D /* ResourceTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC2429D8381000ED499D /* ResourceTabView.swift */; };
 		3D0FFC2729D8381400ED499D /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC2629D8381400ED499D /* SettingsTabView.swift */; };
 		3D0FFC2929D8381700ED499D /* StatisticsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC2829D8381700ED499D /* StatisticsTabView.swift */; };
 		3D0FFC2B29D8382A00ED499D /* OpenAiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC2A29D8382A00ED499D /* OpenAiModel.swift */; };
 		3D0FFC2E29D8386C00ED499D /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D0FFC2D29D8386C00ED499D /* OpenAISwift */; };
 		3D0FFC3429D8394C00ED499D /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC3329D8394C00ED499D /* CustomTabView.swift */; };
-		3D0FFC3829D83ADE00ED499D /* ConversationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FFC3729D83ADE00ED499D /* ConversationModel.swift */; };
+		3DF2D72A29E1A8F600D00DE5 /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF2D72929E1A8F600D00DE5 /* PDFViewer.swift */; };
+		3DF2D73029E1AFF400D00DE5 /* example.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3DF2D72E29E1AC5900D00DE5 /* example.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D0AA9E92A04ABAA00F4A863 /* PdfModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfModel.swift; sourceTree = "<group>"; };
+		3D0AA9EB2A05249500F4A863 /* PDFDocument+QuizExtraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFDocument+QuizExtraction.swift"; sourceTree = "<group>"; };
+		3D0AA9ED2A05268B00F4A863 /* ExtractedBlankQuizReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedBlankQuizReviewView.swift; sourceTree = "<group>"; };
 		3D0FFBFE29D81D6700ED499D /* Chatudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0FFC0129D81D6700ED499D /* ChatudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatudyApp.swift; sourceTree = "<group>"; };
 		3D0FFC0329D81D6700ED499D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,12 +41,13 @@
 		3D0FFC1929D8380500ED499D /* ChatTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTabView.swift; sourceTree = "<group>"; };
 		3D0FFC1B29D8380600ED499D /* ReviecedMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviecedMessageView.swift; sourceTree = "<group>"; };
 		3D0FFC1C29D8380600ED499D /* SentMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentMessageView.swift; sourceTree = "<group>"; };
-		3D0FFC2429D8381000ED499D /* ReviewTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTabView.swift; sourceTree = "<group>"; };
+		3D0FFC2429D8381000ED499D /* ResourceTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceTabView.swift; sourceTree = "<group>"; };
 		3D0FFC2629D8381400ED499D /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
 		3D0FFC2829D8381700ED499D /* StatisticsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsTabView.swift; sourceTree = "<group>"; };
 		3D0FFC2A29D8382A00ED499D /* OpenAiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAiModel.swift; sourceTree = "<group>"; };
 		3D0FFC3329D8394C00ED499D /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
-		3D0FFC3729D83ADE00ED499D /* ConversationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationModel.swift; sourceTree = "<group>"; };
+		3DF2D72929E1A8F600D00DE5 /* PDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
+		3DF2D72E29E1AC5900D00DE5 /* example.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = example.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,14 +81,18 @@
 		3D0FFC0029D81D6700ED499D /* Chatudy */ = {
 			isa = PBXGroup;
 			children = (
+				3DF2D72D29E1AC3800D00DE5 /* pdfResources */,
 				3D0FFC3629D8396600ED499D /* TabView */,
 				3D0FFC0129D81D6700ED499D /* ChatudyApp.swift */,
+				3D0AA9ED2A05268B00F4A863 /* ExtractedBlankQuizReviewView.swift */,
+				3D0AA9E92A04ABAA00F4A863 /* PdfModel.swift */,
+				3D0AA9EB2A05249500F4A863 /* PDFDocument+QuizExtraction.swift */,
 				3D0FFC0329D81D6700ED499D /* ContentView.swift */,
 				3D0FFC1B29D8380600ED499D /* ReviecedMessageView.swift */,
+				3DF2D72929E1A8F600D00DE5 /* PDFViewer.swift */,
 				3D0FFC1829D8380500ED499D /* QAView.swift */,
 				3D0FFC1C29D8380600ED499D /* SentMessageView.swift */,
 				3D0FFC2A29D8382A00ED499D /* OpenAiModel.swift */,
-				3D0FFC3729D83ADE00ED499D /* ConversationModel.swift */,
 				3D0FFC0529D81D6800ED499D /* Assets.xcassets */,
 				3D0FFC0729D81D6800ED499D /* Preview Content */,
 			);
@@ -95,12 +107,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3D0FFC2F29D838D000ED499D /* ReviewTab */ = {
+		3D0FFC2F29D838D000ED499D /* ResourceTab */ = {
 			isa = PBXGroup;
 			children = (
-				3D0FFC2429D8381000ED499D /* ReviewTabView.swift */,
+				3D0FFC2429D8381000ED499D /* ResourceTabView.swift */,
 			);
-			path = ReviewTab;
+			path = ResourceTab;
 			sourceTree = "<group>";
 		};
 		3D0FFC3029D838E700ED499D /* SettingsTab */ = {
@@ -140,11 +152,19 @@
 			children = (
 				3D0FFC3529D8395800ED499D /* CustomTab */,
 				3D0FFC3229D8390300ED499D /* ChatTab */,
-				3D0FFC2F29D838D000ED499D /* ReviewTab */,
+				3D0FFC2F29D838D000ED499D /* ResourceTab */,
 				3D0FFC3029D838E700ED499D /* SettingsTab */,
 				3D0FFC3129D838EE00ED499D /* StatisticsTab */,
 			);
 			path = TabView;
+			sourceTree = "<group>";
+		};
+		3DF2D72D29E1AC3800D00DE5 /* pdfResources */ = {
+			isa = PBXGroup;
+			children = (
+				3DF2D72E29E1AC5900D00DE5 /* example.pdf */,
+			);
+			path = pdfResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF2D73029E1AFF400D00DE5 /* example.pdf in Resources */,
 				3D0FFC0929D81D6800ED499D /* Preview Assets.xcassets in Resources */,
 				3D0FFC0629D81D6800ED499D /* Assets.xcassets in Resources */,
 			);
@@ -223,7 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0FFC2529D8381000ED499D /* ReviewTabView.swift in Sources */,
+				3D0AA9EA2A04ABAA00F4A863 /* PdfModel.swift in Sources */,
+				3D0FFC2529D8381000ED499D /* ResourceTabView.swift in Sources */,
 				3D0FFC2029D8380600ED499D /* QAView.swift in Sources */,
 				3D0FFC1F29D8380600ED499D /* SentMessageView.swift in Sources */,
 				3D0FFC3429D8394C00ED499D /* CustomTabView.swift in Sources */,
@@ -232,8 +254,10 @@
 				3D0FFC1E29D8380600ED499D /* ReviecedMessageView.swift in Sources */,
 				3D0FFC1D29D8380600ED499D /* ChatTabView.swift in Sources */,
 				3D0FFC0229D81D6700ED499D /* ChatudyApp.swift in Sources */,
+				3D0AA9EE2A05268B00F4A863 /* ExtractedBlankQuizReviewView.swift in Sources */,
 				3D0FFC2B29D8382A00ED499D /* OpenAiModel.swift in Sources */,
-				3D0FFC3829D83ADE00ED499D /* ConversationModel.swift in Sources */,
+				3D0AA9EC2A05249500F4A863 /* PDFDocument+QuizExtraction.swift in Sources */,
+				3DF2D72A29E1A8F600D00DE5 /* PDFViewer.swift in Sources */,
 				3D0FFC2929D8381700ED499D /* StatisticsTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,9 +8,29 @@
 import SwiftUI
 
 struct SettingsTabView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+    @Environment(\.presentationMode) private var presentationMode
+
+        var body: some View {
+            VStack {
+                Text("도형 만들기")
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                HStack {
+                    Text("둥근 모양")
+                    Spacer()
+                }
+                ZStack {
+                    Rectangle()
+                        .frame(width: 300, height: 10)
+                    HStack {
+                        Circle().fill(Color.yellow)
+                        Ellipse().fill(Color.green)
+                        Capsule().fill(Color.orange)
+                        RoundedRectangle(cornerRadius: 30).fill(Color.gray)
+                    }
+                }
+            }
+        }
 }
 
 struct SettingsTabView_Previews: PreviewProvider {
